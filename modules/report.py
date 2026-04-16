@@ -41,6 +41,7 @@ Tool         : Password Security Toolkit
 
     output_path = Path("output/report.txt")
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path = Path(f"output/report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt")
     output_path.write_text(report)
 
     print("\n✅ Report generated successfully!")
