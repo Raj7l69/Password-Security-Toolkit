@@ -17,21 +17,23 @@ A Python-based cybersecurity toolkit designed to simulate password cracking tech
 
 ## 📂 Project Structure
 
+```
 project/
- ├── main.py
- ├── modules/
- │    ├── dictionary.py
- │    ├── hash_extractor.py
- │    ├── brute_force.py
- │    ├── analyzer.py
- │    └── report.py
- ├── data/
- │    ├── wordlist.txt
- │    ├── hashes.txt
- ├── output/
- │    └── report.txt
- └── docs/
-      └── diagrams
+├── main.py
+├── modules/
+│   ├── dictionary.py
+│   ├── hash_extractor.py
+│   ├── brute_force.py
+│   ├── analyzer.py
+│   └── report.py
+├── data/
+│   ├── wordlist.txt
+│   ├── hashes.txt
+├── output/
+│   └── report.txt
+└── docs/
+    └── diagrams
+```
 
 ---
 
