@@ -7,8 +7,8 @@ def generate_dictionary(name: str, dob: str, username: str = "") -> None:
         name + "123",
         name.capitalize() + dob,
         name + "@123",
-        name.replace('a', '@'),
-        name.replace('s', '$'),
+        name.lower().replace('a', '@'),
+        name.lower().replace('s', '$'),
     ]
 
     if username:
@@ -18,8 +18,8 @@ def generate_dictionary(name: str, dob: str, username: str = "") -> None:
             username + "123",
             username.capitalize() + dob,
             username + "@123",
-            username.replace('a', '@'),
-            username.replace('s', '$'),
+            username.lower().replace('a', '@'),
+            username.lower().replace('s', '$'),
         ]
 
     output_path = Path("data/wordlist.txt")
