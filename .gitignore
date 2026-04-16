@@ -1,0 +1,5 @@
+data/rockyou.txt
+data/hashes.txt
+output/report.txt
+__pycache__/
+*.pyc
